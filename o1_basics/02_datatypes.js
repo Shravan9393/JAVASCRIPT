@@ -1,20 +1,15 @@
-"use strict"; //treat all js code as newer version
-// alert ( 3 + 3 ) // we are using nodejs,not brwser
-let name = "shravan"
-let age = 18
-let isLoggedIn = false
+// primitive
 
-// premitife datatypes
-// datatypes
-// number
-// string = ""
-// bigInt
-// boolean => true/false
-// null => standalone value
-// undefined =>
-// symbol => unique
+//  7 types : string, Number, Boolean, null, undefined
+// big Int
+const score = 100;
+const scoreVlaue = 100;
 
-
-// object
-
-console.log(typeof age);
+const id = Symbol('1234')
+const anotherId = Symbol('1234')
+const isLoggedIN = false
+const OutsideTemp = null
+let userEmail;
+console.log(id === anotherId)
+let x = null;
+console.log(typeof x)
